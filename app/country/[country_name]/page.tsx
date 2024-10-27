@@ -13,25 +13,25 @@ export default function CountryName({params}){
     },
 
       {
-        name:"India",
+        name:"india",
         capital:"Delhi",
         population: 1454779943
     },
 
       {
-        name:"Iran",
+        name:"iran",
         capital:"Thran",
         population: 91820389
     },
 
       {
-        name:"Sudiarab",
+        name:"sudiarb",
         capital:"Ryhad",
         population:34141200
     },
 
       {
-        name:"England",
+        name:"england",
         capital:"lodon",
         population: 69261000
     }
