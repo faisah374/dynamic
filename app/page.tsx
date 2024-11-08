@@ -1,7 +1,4 @@
 
-import Image from "next/image"
-import Country from "./country/page"
-
 export default function Home() {
   return (
    <div>
