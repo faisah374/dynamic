@@ -1,5 +1,7 @@
+
+ import { AnyAaaaRecord } from "dns";
 import Link from "next/link";
-export default function CountryName({params}){
+export default function CountryName({params}:{params:any}){
   type countryDta={
     name:string,capital:string,population:number
   } 
