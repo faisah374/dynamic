@@ -1,8 +1,11 @@
-
+"use client"
 import Link from "next/link";
-export default function CountryName({params}:{params:any}){
+export default function CountryName({params}:{params: {country_name:string}}){
+
   type countryDta={
-    name:string,capital:string,population:number
+    name:string,
+    capital:string,
+    population:number
   } 
   
   
@@ -42,7 +45,7 @@ export default function CountryName({params}:{params:any}){
 
 const country=countryDta.find((c)=>c.name.toLowerCase()===params.country_name.toLowerCase());
 if (!country) {
-    return <h1>Name:{params.country_name} country not found</h1>
+    return <h1>Name:{params.country_name} country not found.please check parmeter name in the urL.</h1>
 }
 
 
